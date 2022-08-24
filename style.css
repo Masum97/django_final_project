@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg,#48e739, #f0413b);
+  height: 100vh;
+}
+
+.card-body{
+    color: #f0413b;
+}
+.navbar-brand{
+    color: rgb(255, 255, 255);
+    
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+  
+}
+.card-header {
+    color: rgb(255, 255, 255);
+}
