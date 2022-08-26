@@ -11,6 +11,7 @@ def index(request):
 
 
 def staff(request):
+
     return render(request, 'dashboard/staff.html')
 
 
@@ -55,8 +56,8 @@ def product_update(request, pk):
     return render(request, 'dashboard/product_update.html', context)
 
 
-
-
+def profile(request):
+    return render(request, 'user/profile.html')
 
 
 def order(request):
